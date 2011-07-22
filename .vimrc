@@ -15,3 +15,4 @@ set mousemodel=extend
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 
+nnoremap <F5> :GundoToggle<CR>
