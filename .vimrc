@@ -14,6 +14,7 @@ set mousemodel=extend
 
 map <Leader>] <Plug>MakeGreen " change from <Leader>t to <Leader>]
 map <Leader>T <Plug>TaskList
+let g:pep8_map='<Leader>8'
 
 syntax on
 filetype on
