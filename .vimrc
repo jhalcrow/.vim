@@ -30,6 +30,8 @@ let VCSCommandSVKExec='disabled no such executable'
 set foldmethod=indent
 set foldlevel=99
 
+nnoremap <F5> :GundoToggle<CR>
+"
 " Code Completion
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
