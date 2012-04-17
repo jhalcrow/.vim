@@ -55,3 +55,9 @@
 [submodule "bundle/vim-sparkup"]
 	path = bundle/vim-sparkup
 	url = http://github.com/bingaman/vim-sparkup.git
+[submodule "bundle/vim-ipython"]
+	path = bundle/vim-ipython
+	url = git://github.com/ivanov/vim-ipython.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

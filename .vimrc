@@ -1,6 +1,6 @@
 set ruler
-colorscheme desert
 
+set encoding=utf-8
 let mapleader='\'
 set expandtab
 set tabstop=4
@@ -16,7 +16,10 @@ map <Leader>] <Plug>MakeGreen " change from <Leader>t to <Leader>]
 map <Leader>T <Plug>TaskList
 let g:pep8_map='<Leader>8'
 
-syntax on
+syntax enable
+set background=dark
+colorscheme solarized
+
 filetype on
 filetype plugin indent on 
 
